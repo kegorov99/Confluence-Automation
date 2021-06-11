@@ -2,9 +2,9 @@
 
 from atlassian import Confluence
 
-HOST='confluence.red.ru'
-USERNAME='k.egorov'
-PASSWORD='PhoenixRED1528!qw'
+HOST = 'confluence.red.ru'
+USERNAME = 'k.egorov'
+PASSWORD = 'PhoenixRED1528!qw'
 
 confluence = Confluence(url=f"http://{HOST}:8090", username=USERNAME, password=PASSWORD)
 

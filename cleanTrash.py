@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 
+from getpass import getpass
 from atlassian import Confluence
 
 HOST = 'confluence.red.ru'
 USERNAME = 'k.egorov'
-PASSWORD = 'PhoenixRED1528!qw'
+PASSWORD = getpass('Введите пароль: ')
 
 confluence = Confluence(url=f"http://{HOST}:8090", username=USERNAME, password=PASSWORD)
 
